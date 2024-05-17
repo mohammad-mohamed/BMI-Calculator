@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradient background */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,10 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background-color: rgba(255, 255, 255, 0.8); 
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
 }
 
 h1 {
@@ -48,14 +48,14 @@ button[type="submit"] {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: #ff7e5f; /* Orange button */
+    background-color: #ff7e5f; 
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 button[type="submit"]:hover {
-    background-color: #ff6b4a; /* Darker orange on hover */
+    background-color: #ff6b4a;
 }
 
 #result {
